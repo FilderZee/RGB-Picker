@@ -1,0 +1,33 @@
+.squaresContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  width: 300px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.btn__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  margin-top: 2em;
+}
+
+.btn {
+  display: inline-block;
+  padding: 2em;
+  border: none;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: 2px solid #96c6d2;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.btn:hover {
+  background-color: #96c6d2;
+  color: #ffffff;
+  transition: 0.5s ease;
+}
